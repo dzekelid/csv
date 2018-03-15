@@ -25,7 +25,7 @@ apis:
   tags: CSV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/csv/master/_listings/google-doubleclick/lineitems-downloadlineitems-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/csv/master/_listings/google-doubleclick/lineitems-uploadlineitems-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
