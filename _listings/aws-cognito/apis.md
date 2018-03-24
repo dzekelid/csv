@@ -21,9 +21,9 @@ tags:
 - Facebook
 - Authentication
 - Amazon Web Services
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/csv/master/_listings/aws-cognito/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/aws-cognito/apis.yaml
 specificationVersion: "0.14"
 apis: []
 x-common:
