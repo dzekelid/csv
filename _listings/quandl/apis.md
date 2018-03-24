@@ -35,7 +35,7 @@ apis:
   tags: CSV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/quandl/databases-database-code-codes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/quandl/datasets-database-code-dataset-code-get.md
 x-common:
 - type: x-authentication
   url: https://docs.quandl.com/docs#section-authentication
