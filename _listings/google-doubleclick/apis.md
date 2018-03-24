@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Google APIs
 - Advertising
-created: "2018-03-15"
-modified: "2018-03-15"
-url: https://raw.githubusercontent.com/streamdata-gallery/csv/master/_listings/google-doubleclick/apis.yaml
+created: "2018-03-23"
+modified: "2018-03-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-doubleclick/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Doubleclick API
@@ -25,7 +25,7 @@ apis:
   tags: CSV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/csv/master/_listings/google-doubleclick/lineitems-uploadlineitems-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-doubleclick/lineitems-downloadlineitems-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
