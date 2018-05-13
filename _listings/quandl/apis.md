@@ -36,17 +36,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/quandl/datasets-database-code-dataset-code-get.md
-- name: Quandl API Download Codes
-  description: You can download a list of all dataset codes in a database in a single
-    call, by appending /codes to your database request. The call will return a ZIP
-    file containing a CSV.
+- name: Quandl API Get Dataset
+  description: You can download both data and metadata in a single call, using the
+    following API request. (You can replace .json with .csv or .xml in this request.  If
+    you use .csv, only data will be returned.). In this call, you can customize the
+    dataset object being returned, exactly as in the /data request above.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11440-quandl.jpg
   humanURL: https://www.quandl.com
   baseURL: https://www.quandl.com//api/v3
   tags: CSV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/quandl/databases-database-code-codes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/quandl/datasets-database-code-dataset-code-get.md
 x-common:
 - type: x-authentication
   url: https://docs.quandl.com/docs#section-authentication
