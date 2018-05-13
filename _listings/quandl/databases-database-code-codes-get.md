@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Quandl
-  description: The Quandl API
+  title: Quandl API Download Codes
+  description: You can download a list of all dataset codes in a database in a single
+    call, by appending /codes to your database request. The call will return a ZIP
+    file containing a CSV.
   version: 1.0.0
 host: www.quandl.com
 basePath: /api/v3
