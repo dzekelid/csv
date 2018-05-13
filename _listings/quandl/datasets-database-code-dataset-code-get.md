@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Quandl
-  description: The Quandl API
+  title: Quandl API Get Dataset
+  description: You can download both data and metadata in a single call, using the
+    following API request. (You can replace .json with .csv or .xml in this request.  If
+    you use .csv, only data will be returned.). In this call, you can customize the
+    dataset object being returned, exactly as in the /data request above.
   version: 1.0.0
 host: www.quandl.com
 basePath: /api/v3
