@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Doubleclick Merged API
+  title: Google Doubleclick API Upload CSV
   version: 1.0.0
+  description: Uploads line items in CSV format.
 schemes:
 - http
 produces:
