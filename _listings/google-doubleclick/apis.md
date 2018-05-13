@@ -26,15 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-doubleclick/lineitems-uploadlineitems-post.md
-- name: Google Doubleclick API Download CSV
-  description: Retrieves line items in CSV format.
+- name: Google Doubleclick API Upload CSV
+  description: Uploads line items in CSV format.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: CSV
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-doubleclick/lineitems-downloadlineitems-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-doubleclick/lineitems-uploadlineitems-post.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
