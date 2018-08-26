@@ -1,5 +1,6 @@
 ---
 name: VersaPay
+x-slug: versapay
 description: VersaPay handles elements of both credit and debit card merchant payment
   processing in Canada. In offering a host of merchant account services and credit
   card POS terminals it allows for an efficient merchant payment service in all aspects-
@@ -10,35 +11,35 @@ description: VersaPay handles elements of both credit and debit card merchant pa
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
 x-kinRank: "9"
 x-alexaRank: "410909"
-tags:
-- Technology
-- Stack Network
-- Payments
-- Payments
-- Financial Services
-- Checking
-- Billing
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: CSV
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
-- name: VersaPay Import a CSV File
-  description: "When uploading a CSV-formatted file it\u2019s helpful to use your
-    language/framework tooling to simplify the [multipart/form-data](https://www.ietf.org/rfc/rfc2388.txt)
-    file upload.\n### Size Limit\nThe file cannot exceed 25MB.\n### Layouts\nPlease
-    contact support@versapay.com or reach out to your implementation specialist for
-    standard inbound CSV file layouts."
+- name: VersaPay API Reference - Import a CSV File
+  x-api-slug: apiimports-post
+  description: |-
+    When uploading a CSV-formatted file it???s helpful to use your language/framework tooling to simplify the [multipart/form-data](https://www.ietf.org/rfc/rfc2388.txt) file upload.
+    ### Size Limit
+    The file cannot exceed 25MB.
+    ### Layouts
+    Please contact support@versapay.com or reach out to your implementation specialist for standard inbound CSV file layouts.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
-  tags: CSV
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/versapay/api-imports-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/versapay/api-imports-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/versapay/apiimports-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/versapay/apiimports-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://venmo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://versapay.stack.network
 - type: x-base
   url: https://secure.versapay.com/api/
 - type: x-blog
