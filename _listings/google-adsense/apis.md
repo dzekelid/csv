@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: CSV
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Adsense Merged API - Generate Report
+  x-api-slug: accountsaccountidreports-get
+  description: Generate an AdSense report based on the report request sent in the
+    query parameters. Returns the result as JSON; to retrieve output in CSV format
+    specify "alt=csv" as a query parameter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, Stack, API Service Provider, API
+    Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/google-adsense/accountsaccountidreports-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://gmail.api.gallery.streamdata.io

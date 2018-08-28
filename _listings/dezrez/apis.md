@@ -7,11 +7,137 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-
 x-kinRank: "7"
 x-alexaRank: "385559"
 tags: CSV
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dezrez.Rezi.Client.Api - Get details formatted for batch payment csv
+  x-api-slug: apiaccountingexportsbatchpaymentcsv-post
+  description: Get details formatted for batch payment csv.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apiaccountingexportsbatchpaymentcsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Get ledger items formatted for export csv
+  x-api-slug: apiaccountingexportsledgerentriescsv-post
+  description: Get ledger items formatted for export csv.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apiaccountingexportsledgerentriescsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected property list
+    items
+  x-api-slug: apilistpropertycsv-post
+  description: Generates a csv file from selected property list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistpropertycsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected letting property
+    list items
+  x-api-slug: apilistlettingpropertycsv-post
+  description: Generates a csv file from selected letting property list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistlettingpropertycsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected property list
+    items
+  x-api-slug: apilistpropertypipelinecsv-post
+  description: Generates a csv file from selected property list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistpropertypipelinecsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected event list items
+  x-api-slug: apilisteventscsv-post
+  description: Generates a csv file from selected event list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilisteventscsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected group list items
+  x-api-slug: apilistgroupscsv-post
+  description: Generates a csv file from selected group list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistgroupscsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected group interest
+    list items
+  x-api-slug: apilistgroupinterestscsv-post
+  description: Generates a csv file from selected group interest list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistgroupinterestscsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected group list items
+  x-api-slug: apilistactivesearchescsv-post
+  description: Generates a csv file from selected group list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistactivesearchescsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from group matches by property
+    role id
+  x-api-slug: apilistgroupmatchescsv-post
+  description: Generates a csv file from group matches by property role id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistgroupmatchescsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected group list items
+  x-api-slug: apilistpropertyfinancialcsv-post
+  description: Generates a csv file from selected group list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistpropertyfinancialcsv-post-openapi.md
+- name: Dezrez.Rezi.Client.Api - Generates a csv file from selected property list
+    items
+  x-api-slug: apilistpropertynewbusinesscsv-post
+  description: Generates a csv file from selected property list items.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg
+  humanURL: https://www.dezrez.com
+  baseURL: https://api.dezrez.com//
+  tags: SaaS, Technology, Real Estate, Properties, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/dezrez/apilistpropertynewbusinesscsv-post-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/dezrez

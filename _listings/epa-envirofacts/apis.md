@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-en
 x-kinRank: "8"
 x-alexaRank: "5166"
 tags: CSV
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/epa-envirofacts/apis.md
 specificationVersion: "0.14"
 apis:
@@ -46,6 +46,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/epa-envirofacts/air-rest-services-get-info-clusters-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/epa-envirofacts/air-rest-services-get-info-clusters-get-openapi.md
+- name: U.S. EPA Enforcement and Compliance History Online (ECHO) - Detailed Facility
+    Report (DFR) - Detailed Facility Report CWA CSV Compliance Service
+  x-api-slug: dfr-rest-services-get-cwa-cs-compliance-get
+  description: This procedure obtains data for the CWA Compliance Schedule Violations
+    section of the DFR.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg
+  humanURL: http://www.epa.gov
+  baseURL: https://ofmpub.epa.gov//echo
+  tags: Environmental database, Environment, Science, Dead, Environment, Federal Government,
+    Stack Network, Enterprise, API Provider, Profiles, General Data, Historical Data
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/epa-envirofacts/dfr-rest-services-get-cwa-cs-compliance-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/csv/master/_listings/epa-envirofacts/dfr-rest-services-get-cwa-cs-compliance-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://envestnet.api.gallery.streamdata.io
